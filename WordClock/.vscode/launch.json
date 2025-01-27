@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:WordClock}",
+            "name": "Debug WordClock",
+            "program": "${workspaceFolder:WordClock}/.build/debug/WordClock",
+            "preLaunchTask": "swift: Build Debug WordClock"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:WordClock}",
+            "name": "Release WordClock",
+            "program": "${workspaceFolder:WordClock}/.build/release/WordClock",
+            "preLaunchTask": "swift: Build Release WordClock"
+        }
+    ]
+}
