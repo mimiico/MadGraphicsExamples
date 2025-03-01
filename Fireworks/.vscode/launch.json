@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Fireworks}",
+            "name": "Debug Fireworks",
+            "program": "${workspaceFolder:Fireworks}/.build/debug/Fireworks",
+            "preLaunchTask": "swift: Build Debug Fireworks"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Fireworks}",
+            "name": "Release Fireworks",
+            "program": "${workspaceFolder:Fireworks}/.build/release/Fireworks",
+            "preLaunchTask": "swift: Build Release Fireworks"
+        }
+    ]
+}

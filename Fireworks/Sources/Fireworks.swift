@@ -33,7 +33,7 @@ public struct Fireworks {
 
 
         let font = Font(path: "/lfs/Resources/Fonts/Roboto-Regular.ttf", pointSize: 10, dpi: 220)
-        let text1 = TextLayer(at: Point(x: layer.bounds.size.halfWidth, y: 40), anchorPoint: UnitPoint.center, string: "Happy", font: font, foregroundColor: Color.red)
+        let text1 = TextLayer(at: Point(x: layer.bounds.size.halfWidth, y: 40), anchorPoint: UnitPoint.center, string: "Doggo", font: font, foregroundColor: Color.red)
         let text2 = TextLayer(at: Point(x: layer.bounds.size.halfWidth, y: 80), anchorPoint: UnitPoint.center, string: "Christmas", font: font, foregroundColor: Color.red)
 
         layer.append(text1)

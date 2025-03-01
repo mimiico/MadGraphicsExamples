@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SpinningCube}",
+            "name": "Debug SpinningCube",
+            "program": "${workspaceFolder:SpinningCube}/.build/debug/SpinningCube",
+            "preLaunchTask": "swift: Build Debug SpinningCube"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SpinningCube}",
+            "name": "Release SpinningCube",
+            "program": "${workspaceFolder:SpinningCube}/.build/release/SpinningCube",
+            "preLaunchTask": "swift: Build Release SpinningCube"
+        }
+    ]
+}
